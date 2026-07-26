@@ -233,27 +233,27 @@ Both quartiles are summed into a **combined score (2–8)** that determines the 
 
 ### Power BI Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Screenshots/Dashboard.png)
 
 ### Average Views by Category
 
-![Category Views](screenshots/category_views.png)
+![Category Views](Screenshots/category_views.png)
 
 ### Engagement Rate by Category
 
-![Engagement](screenshots/engagement_by_category.png)
+![Engagement](Screenshots/engagement_by_category.png)
 
 ### Best Upload Hour Analysis
 
-![Upload Hour](screenshots/best_upload_hour.png)
+![Upload Hour](Screenshots/best_upload_hour.png)
 
 ### Title Length Impact
 
-![Title Length](screenshots/title_length_impact.png)
+![Title Length](Screenshots/title_length_impact.png)
 
 ### Trending Speed by Category
 
-![Trending Speed](screenshots/trending_speed.png)
+![Trending Speed](Screenshots/trending_speed.png)
 
 ---
 
@@ -281,7 +281,7 @@ YouTube_India_Trending_Analysis/
 │   └── youtube_clean_data.csv
 │
 ├── Screenshots/
-│   ├── dashboard.png
+│   ├── Dashboard.png
 │   ├── category_views.png
 │   ├── engagement_by_category.png
 │   ├── best_upload_hour.png
@@ -331,17 +331,6 @@ Open `dashboard/youtube_dashboard.pbix` in **Power BI Desktop**, or view the sta
 3. **Keep video titles under 30 characters** — measurably correlated with higher view counts
 4. **Treat Gaming as a community strategy, not a reach strategy** — highest engagement but mid-tier views
 5. **Reassess News & Politics investment** — lowest engagement rate (2.34%) and bottom-quartile views
-
----
-
-## ⚠️ Limitations & Future Scope
-
-| Limitation | Detail |
-|---|---|
-| Deduplication approach | Each video counted once at first trending appearance |
-| Dislikes excluded | YouTube removed public dislike counts in December 2021 |
-| Partial 2024 data | YoY decline reflects incomplete data coverage |
-| Static dashboard | Future version will use a single fact table with star schema to enable slicers and cross-filtering |
 
 ---
 
